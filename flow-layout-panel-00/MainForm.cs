@@ -32,8 +32,8 @@ namespace flow_layout_panel_00
             flowLayoutPanel.Width = 
                 userControl.Width + 
                 userControl.Margin.Left + 
-                userControl.Margin.Right +
-                SystemInformation.VerticalScrollBarWidth;
+                userControl.Margin.Right +                
+                SystemInformation.VerticalScrollBarWidth; // https://stackoverflow.com/a/3205512/5438626
         }
     }
 }
