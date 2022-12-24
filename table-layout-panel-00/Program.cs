@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace table_layout_panel_00
+namespace flow_layout_panel_00
 {
     static class Program
     {

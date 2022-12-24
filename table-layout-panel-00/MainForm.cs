@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace table_layout_panel_00
+namespace flow_layout_panel_00
 {
     public partial class MainForm : Form
     {

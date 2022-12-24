@@ -1,5 +1,5 @@
 ﻿
-namespace table_layout_panel_00
+namespace flow_layout_panel_00
 {
     partial class MainForm
     {
