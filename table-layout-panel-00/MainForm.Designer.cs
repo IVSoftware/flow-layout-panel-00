@@ -36,16 +36,16 @@ namespace flow_layout_panel_00
             // 
             this.flowLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.flowLayoutPanel.Location = new System.Drawing.Point(167, 12);
+            this.flowLayoutPanel.Location = new System.Drawing.Point(26, 12);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
-            this.flowLayoutPanel.Size = new System.Drawing.Size(260, 220);
+            this.flowLayoutPanel.Size = new System.Drawing.Size(401, 264);
             this.flowLayoutPanel.TabIndex = 0;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(478, 244);
+            this.ClientSize = new System.Drawing.Size(478, 352);
             this.Controls.Add(this.flowLayoutPanel);
             this.Name = "MainForm";
             this.Text = "Main Form";

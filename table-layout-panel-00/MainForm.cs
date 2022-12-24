@@ -17,40 +17,23 @@ namespace flow_layout_panel_00
             InitializeComponent();
             populateFlowLayoutPanel();
         }
-
         private void populateFlowLayoutPanel()
         {
             flowLayoutPanel.AutoScroll = true;
-            // https://stackoverflow.com/a/3205512/5438626
-            int usableWidth =
-                flowLayoutPanel.Width - SystemInformation.VerticalScrollBarWidth;
-            List<TextBox> tmp = new List<TextBox>();
-            for (int i = 0; i < 25; i++)
+            for (int i = 0; i < 5; i++)
             {
-                var textBox =
-                new TextBox
-                {
-                    Text = $"TextBox{i}",
-                    Name = $"textBox{i}",
-                    Margin = new Padding(),
-                    Width = usableWidth,
-                    Anchor = AnchorStyles.Left | AnchorStyles.Right,
-                };
-                textBox.TextChanged += onAnyTextChanged;
-                flowLayoutPanel.Controls.Add(textBox);
-                tmp.Add(textBox);
+                NewCard();
             }
-            Textboxes = tmp.ToArray();
         }
-        // Handle text changes in any box
-        private void onAnyTextChanged(object sender, EventArgs e)
+        public void NewCard()
         {
-            if(sender is TextBox textbox)
-            {
-                // Do something with the text box that changed.                
-            }
+            var userControl = new Card();
+            flowLayoutPanel.Controls.Add(userControl);
+            flowLayoutPanel.Width = 
+                userControl.Width + 
+                userControl.Margin.Left + 
+                userControl.Margin.Right +
+                SystemInformation.VerticalScrollBarWidth;
         }
-        // Access an individual textboxes easily by index
-        TextBox[] Textboxes;
     }
 }

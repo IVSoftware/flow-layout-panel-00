@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "table-layout-panel-00", "table-layout-panel-00\table-layout-panel-00.csproj", "{41E9F602-32DA-4F68-8B59-6B455E486018}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flow-layout-panel-00", "table-layout-panel-00\flow-layout-panel-00.csproj", "{41E9F602-32DA-4F68-8B59-6B455E486018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
